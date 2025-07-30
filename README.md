@@ -51,12 +51,12 @@
 </td>
 <td width="50%">
 
-### 🛰️ Moh-Atta  
-**Chrome Extension Hijack Simulator**  
+### 🛰️ Metaplaig  
+**Plaigarism Detection through metadata**  
 
-- 🎯 Awareness tool for extension abuse scenarios  
-- 🕵️ Focused on demonstrating attack surface & evasion  
-- 🛡️ Planned safety features (**SafeKeys**) to prevent misuse  
+- 🎯 Tool for plaigarism detection
+- 🕵️ Focused on demonstrating metadata extraction and comparision
+  
 
 </td>
 </tr>
@@ -70,14 +70,6 @@
 - 🔐 Emphasis on privacy & encryption in distributed systems  
 
 </td>
-<td width="50%">
-
-### 🌊 Maritime Cybersecurity Research  
-**Shipboard Cyber/IT Officer Roadmap**  
-
-- 📡 Focus on securing **maritime networks & OT systems**  
-- 📖 Mapping career pathway from **cyber cadet → officer → senior roles**  
-
 </td>
 </tr>
 </table>
