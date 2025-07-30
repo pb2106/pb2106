@@ -121,17 +121,6 @@
 
 ---
 
-## 🎯 What Drives Me  
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=600&height=50&duration=3000&lines=Always+Curious;Always+Learning;Always+Hacking+(Ethically);Pushing+the+Boundaries+of+Cybersecurity;" />
-</div>
-
-Cybersecurity for me is not just about protecting systems — it’s about **curiosity, resilience, and creating impact**.  
-I thrive on **breaking, fixing, and securing** technologies while ensuring that every project leaves behind something meaningful.  
-
----
-
 ## 🤝 Let’s Collaborate  
 
 <div align="center">
