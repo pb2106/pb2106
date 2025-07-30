@@ -110,6 +110,20 @@
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pb2106&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" height="180" />
 </div>
+---
+
+## 🏆 Achievements & Recognition
+
+<div align="center">
+
+| 🏅 Achievement | 🎯 Event/Competition | 🗓️ Year |
+|---|---|---|
+| 🥇 **Finalist** | Salesforce Product Jam *(Nirog Kavach)* | 2025 |
+| 🏆 **Winner** | Technical Treasure Hunt @ MATRIX | 2025 |
+| 🥉 **3rd Place** | Capture the Flag @Jain University | 2025 |
+| 🥈 **Runner-Up** | TRIWIZARD CTF (Cybersecurity) | 2025 |
+
+</div>
 
 ---
 
