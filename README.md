@@ -1,5 +1,5 @@
 # 💫 About Me:
-## 👋 About Me<br> 🎓 B.Tech in Cybersecurity  <br> 🔒 Focus: Red & Blue Team, Threat Hunting, Malware Analysis  <br> 🛠️ Tools: Python | C/C++ | Bash | PowerShell | Nmap | Burp Suite | Wireshark  <br> 🚀 Projects: Cloud Messaging | Moh-Atta | Password Auditor  <br> 🌱 Learning: Elastic Security & Maritime Cybersecurity  <br> ⭐ Always curious. Always learning. Always hacking (ethically).  <br>
+## 🎓 B.Tech in Cybersecurity  <br> 🔒 Focus: Red & Blue Team, Threat Hunting, Malware Analysis  <br> 🛠️ Tools: Python | C/C++ | Bash | PowerShell | Nmap | Burp Suite | Wireshark  <br> 🚀 Projects: Cloud Messaging | Moh-Atta | Password Auditor  <br> 🌱 Learning: Elastic Security & Maritime Cybersecurity  <br> ⭐ Always curious. Always learning. Always hacking (ethically).  <br>
 
 
 ## 🌐 Socials:
