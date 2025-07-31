@@ -20,8 +20,6 @@
 
 ---
 
-<img align="right" height="120" src="https://octodex.github.com/images/daftpunktocat-thomas.gif" />
-
 ## 🧑‍💻 About Me  
 
 🎓 **B.Tech in Cybersecurity**  
