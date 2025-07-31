@@ -54,9 +54,8 @@
 ### 🛰️ Metaplaig  
 **Plaigarism Detection through metadata**  
 
-- 🎯 Tool for plaigarism detection
-- 🕵️ Focused on demonstrating metadata extraction and comparision
-  
+- 🎯 Tool for plaigarism detection  
+- 🕵️ Focused on demonstrating metadata extraction and comparision  
 
 </td>
 </tr>
@@ -70,9 +69,19 @@
 - 🔐 Emphasis on privacy & encryption in distributed systems  
 
 </td>
+<td width="50%">
+
+### 🔐 DiffiLAN  
+**Diffie-Hellman Key Exchange over LAN**  
+
+- 📡 Scans LAN for active devices (IP & MAC)  
+- 🔑 Implements Diffie-Hellman key exchange between peers  
+- 🔐 Generates a shared secret key securely over the network  
+
 </td>
 </tr>
 </table>
+
 
 ---
 
