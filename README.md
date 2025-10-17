@@ -9,15 +9,6 @@
   <img src="https://img.shields.io/github/followers/pb2106?label=Followers&style=social" alt="GitHub Followers" />
 </div>
 
-<p align="center">
-  <a href="mailto:prabhav.m.naik@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://linkedin.com/in/prabhav-naik-6978b5326">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-</p>
-
 ---
 
 ## 🧑‍💻 About Me  
