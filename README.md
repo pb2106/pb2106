@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!;+I'm+Prabhav+Naik!;" />
 </div>
 
-<h3 align="center">🔒 Cybersecurity Enthusiast • Red & Blue Team • Threat Hunter</h3>
+<h3 align="center"> Cybersecurity Enthusiast • Red Team • Threat Hunter</h3>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=pb2106&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
@@ -13,29 +13,29 @@
 
 ## 🧑‍💻 About Me  
 
-🎓 **B.Tech in Cybersecurity**  
-💡 Passionate about **Red & Blue Teaming, Threat Hunting, Malware Analysis**  
-🛠️ Skilled with **Python, C/C++, Bash, PowerShell, Nmap, Burp Suite, Wireshark**  
-🚀 Built projects like **Moh-Atta, Password Auditor, Cloud Messaging**  
-🌱 Currently learning **Elastic Security & Maritime Cybersecurity**  
-⭐ Always curious. Always learning. Always hacking (ethically).  
+- **B.Tech in Cybersecurity**  
+- Passionate about **Red & Blue Teaming, Threat Hunting, Malware Analysis**  
+- Skilled with **Python, C/C++, Bash, PowerShell, Nmap, Burp Suite, Wireshark**  
+- Built projects like **Moh-Atta, Password Auditor, Cloud Messaging**  
+- Currently learning **Elastic Security & Maritime Cybersecurity**  
+- Always curious. Always learning. Always hacking (ethically).  
 
 > _"Cybersecurity isn’t just defense — it’s about foresight, resilience, and impact."_  
 
 ---
 
-## 🚀 Featured Projects  
+##  Featured Projects  
 
 <table>
 <tr>
 <td width="50%">
 
-### 🛡️ Password Auditor  
+###  Password Auditor  
 **Educational Credential & Wi-Fi Recovery Tool**  
 
-- 🔑 Extracts Wi-Fi & browser credentials (Chrome, Edge, Opera)  
-- 🔒 Demonstrates DPAPI + AES-GCM decryption methods  
-- 📡 Optional secure cloud sync via Google Apps Script  
+-  Extracts Wi-Fi & browser credentials (Chrome, Edge, Opera)  
+-  Demonstrates DPAPI + AES-GCM decryption methods  
+-  Optional secure cloud sync via Google Apps Script  
 
 </td>
 <td width="50%">
@@ -43,29 +43,29 @@
 ### 🛰️ Metaplaig  
 **Plaigarism Detection through metadata**  
 
-- 🎯 Tool for plaigarism detection  
-- 🕵️ Focused on demonstrating metadata extraction and comparision  
+-  Tool for plaigarism detection  
+-  Focused on demonstrating metadata extraction and comparision  
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### ☁️ Cloud Messaging  
+###  Cloud Messaging  
 **Encrypted Messaging Platform**  
 
-- 📩 Secure, lightweight communication system  
-- 🔐 Emphasis on privacy & encryption in distributed systems  
+-  Secure, lightweight communication system  
+-  Emphasis on privacy & encryption in distributed systems  
 
 </td>
 <td width="50%">
 
-### 🔐 DiffiLAN  
+###  DiffiLAN  
 **Diffie-Hellman Key Exchange over LAN**  
 
-- 📡 Scans LAN for active devices (IP & MAC)  
-- 🔑 Implements Diffie-Hellman key exchange between peers  
-- 🔐 Generates a shared secret key securely over the network  
+-  Scans LAN for active devices (IP & MAC)  
+-  Implements Diffie-Hellman key exchange between peers  
+-  Generates a shared secret key securely over the network  
 
 </td>
 </tr>
@@ -74,11 +74,11 @@
 
 ---
 
-## 🛠️ Tech Stack & Tools  
+##  Tech Stack & Tools  
 
 <div align="center">
 
-### 💻 Languages  
+###  Languages  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) 
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) 
@@ -86,7 +86,7 @@
 ![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white) 
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)  
 
-### 🔧 Tools & Platforms  
+###  Tools & Platforms  
 ![Nmap](https://img.shields.io/badge/Nmap-008080?style=for-the-badge&logo=nmap&logoColor=white) 
 ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6F00?style=for-the-badge&logo=burpsuite&logoColor=white) 
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white) 
@@ -98,7 +98,7 @@
 
 ---
 
-## 📊 GitHub Stats  
+## GitHub Stats  
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=pb2106&theme=dark&hide_border=false&include_all_commits=false&count_private=false" height="180" />
@@ -108,11 +108,11 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pb2106&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" height="180" />
 </div>
 
-## 🏆 Achievements & Recognition
+##  Achievements & Recognition
 
 <div align="center">
 
-| 🏅 Achievement | 🎯 Event/Competition | 🗓️ Year |
+|  Achievement |  Event/Competition |  Year |
 |---|---|---|
 | 🥇 **Finalist** | Salesforce Product Jam *(Nirog Kavach)* | 2025 |
 | 🏆 **Winner** | Technical Treasure Hunt @ MATRIX | 2025 |
@@ -123,12 +123,10 @@
 
 ---
 
-## 🤝 Let’s Collaborate  
-
 <div align="center">
   <p>
     <strong>Open to opportunities in:</strong><br>
-    🚀 Cybersecurity Research • 🛡️ Threat Hunting • 🌍 Maritime Security • 🕵️ Red Team Ops • 🔐 Secure Software Development
+     Cybersecurity Research •  Threat Hunting •  Maritime Security •  Red Team Ops •  Secure Software Development
   </p>
 </div>
 
@@ -145,10 +143,6 @@
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
-</div>
-
-<div align="center">
-  <i>"Let's build things that matter. Together."</i>
 </div>
 
 <div align="center">
