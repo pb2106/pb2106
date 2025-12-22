@@ -11,7 +11,7 @@
 
 ---
 
-## 🧑‍💻 About Me  
+## About Me  
 
 - **B.Tech in Cybersecurity**  
 - Passionate about **Red & Blue Teaming, Threat Hunting, Malware Analysis**  
