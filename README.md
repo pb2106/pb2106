@@ -29,7 +29,7 @@
 <td width="50%">
 
 ###  Password Auditor  
-**Educational Credential & Wi-Fi Recovery Tool**  
+**Credential & Wi-Fi Recovery Tool**  
 
 -  Extracts Wi-Fi & browser credentials (Chrome, Edge, Opera)  
 -  Demonstrates DPAPI + AES-GCM decryption methods  
@@ -38,7 +38,7 @@
 </td>
 <td width="50%">
 
-### 🛰️ Metaplaig  
+### Metaplaig  
 **Plaigarism Detection through metadata**  
 
 -  Tool for plaigarism detection  
