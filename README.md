@@ -20,8 +20,6 @@
 - Currently learning **Elastic Security & Maritime Cybersecurity**  
 - Always curious. Always learning. Always hacking (ethically).  
 
-> _"Cybersecurity isn’t just defense — it’s about foresight, resilience, and impact."_  
-
 ---
 
 ##  Featured Projects  
@@ -97,17 +95,6 @@
 </div>
 
 ---
-
-## GitHub Stats  
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pb2106&theme=dark&hide_border=false&include_all_commits=false&count_private=false" height="180" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pb2106&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" height="180" />
-</div>
-
 ##  Achievements & Recognition
 
 <div align="center">
