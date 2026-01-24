@@ -11,17 +11,6 @@
 
 ---
 
-## About Me  
-
-- **B.Tech in Cybersecurity**  
-- Passionate about **Red & Blue Teaming, Threat Hunting, Malware Analysis**  
-- Skilled with **Python, C/C++, Bash, PowerShell, Nmap, Burp Suite, Wireshark**  
-- Built projects like **Moh-Atta, Password Auditor, Cloud Messaging**  
-- Currently learning **Elastic Security & Maritime Cybersecurity**  
-- Always curious. Always learning. Always hacking (ethically).  
-
----
-
 ##  Featured Projects  
 
 <table>
