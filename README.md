@@ -1,4 +1,4 @@
-````md
+
 <div align="center">
 
 <img src="./banner.svg" width="100%" alt="pb2106" />
@@ -21,7 +21,7 @@
 
 ### `whoami`
 
-```text
+
 cybersecurity engineer in progress
 
 I build security tooling around systems, networks and cryptography.
@@ -35,7 +35,7 @@ I build security tooling around systems, networks and cryptography.
 
 I like understanding how something breaks
 almost as much as I like making it difficult to break.
-````
+
 
 ---
 
@@ -248,4 +248,3 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=pb2106&layou
 <sub>build → break → understand → rebuild</sub>
 
 </div>
-```
