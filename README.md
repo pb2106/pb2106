@@ -1,135 +1,251 @@
-<div align="center">
-  <img src="./banner.svg" width="100%" alt="Cybersecurity Engineer" />
-</div>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=14&pause=1400&color=CAA14B&background=00000000&center=true&width=560&lines=Kernel-level+USB+security+framework+(patent);Passwordless+ECC+auth+%E2%80%94+CPA+protocol+(patent);Breaking+it+first+so+nobody+else+can" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/followers/pb2106?style=flat-square&label=Followers&color=CAA14B&labelColor=161e26" />
-  <img src="https://komarev.com/ghpvc/?username=pb2106&style=flat-square&color=CAA14B&label=Profile+Views" />
-</p>
-
-<p align="center">
-B.Tech Cybersecurity student building VAPT tooling, hardened network infrastructure, and cryptographic auth systems.
-I'd rather ship the working exploit or the working defense than the slide deck about either.
-</p>
-
-<br/>
-
-## 🛡️ Patents
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-**WRU** · Kernel-Level USB Security Framework
-`Patent applied & approved — pending grant`
-
-iptables-based network monitoring for sandboxed USB devices, with udev + YARA signature scanning for device-level access control. Zero trust enforced at the hardware layer.
-
-</td>
-<td width="50%" valign="top">
-
-**TORUS** · Cyclic Projection Authentication
-`Patent applied & approved — pending grant`
-
-Passwordless auth on a rotation-invariant secret that mutates every login and never crosses the wire. ECC (secp256r1) challenge-response, encrypted WebSocket session layer, 75 passing crypto-parity tests.
-
-</td>
-</tr>
-</table>
-
-## ⚙️ Stack
-
+````md
 <div align="center">
 
-`Offensive Security & Network`
-<br/>
-<img src="https://skillicons.dev/icons?i=linux,bash,powershell" />
-&nbsp;&nbsp;VAPT&nbsp;&nbsp;·&nbsp;&nbsp;Burp&nbsp;Suite&nbsp;&nbsp;·&nbsp;&nbsp;Nmap&nbsp;&nbsp;·&nbsp;&nbsp;Wireshark&nbsp;&nbsp;·&nbsp;&nbsp;iptables&nbsp;&nbsp;·&nbsp;&nbsp;IDS/IPS
+<img src="./banner.svg" width="100%" alt="pb2106" />
 
-`Languages & Backend`
 <br/>
-<img src="https://skillicons.dev/icons?i=python,java,c,cpp,flask,fastapi" />
 
-`Data & Platforms`
-<br/>
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,firebase,gcp,vercel,git" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=14&pause=1400&color=CAA14B&background=00000000&center=true&width=620&lines=breaking+systems+before+someone+else+does;security+%C2%B7+systems+%C2%B7+cryptography;building+things+that+should+probably+not+exist" />
 
-`Cryptography`
-<br/>
-AES-256&nbsp;&nbsp;·&nbsp;&nbsp;RSA&nbsp;&nbsp;·&nbsp;&nbsp;ECC&nbsp;(secp256r1)
+<br/><br/>
+
+<a href="https://github.com/pb2106">
+<img src="https://img.shields.io/github/followers/pb2106?style=flat-square&label=followers&color=CAA14B&labelColor=161e26" />
+</a>
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=pb2106&style=flat-square&color=CAA14B&label=visitors" />
 
 </div>
 
-## 🔧 Projects
+---
 
-| | Project | Stack | What it does |
-|---|---|---|---|
-| 🖥️ | **CTF Competition Platform** | Vite · Flask · MongoDB · GCP · Vercel | Dual-server GCP deployment with Vercel failover, handling 300–400 concurrent users. |
-| 🎭 | **Mirage** | Rust · Bubblewrap · D-Bus · Tauri/React | Linux sandbox spoofing hardware, locale, timezone & network identity; full D-Bus proxy blocking identity leaks from sandboxed apps. |
-| 🔐 | **Prüfen** | HTTPS · RS256 JWT · Cloudflare Tunnel | Minimal-knowledge attribute verification across devices — proves a fact without exposing the data behind it. |
-| 🔑 | **Password Auditor** | Python · DPAPI · AES-GCM | Recovers Wi-Fi & browser credentials (Chrome/Edge/Opera) to demonstrate DPAPI + AES-GCM decryption; optional sync via Apps Script. |
-| 📡 | **DiffiLAN** | Python · Sockets | Scans a LAN for live hosts and runs a real Diffie-Hellman exchange between peers to derive a shared secret. |
-| 📝 | **Metaplaig** | Python | Plagiarism detection via metadata extraction & comparison instead of text matching. |
-| 💬 | **Cloud Messaging** | Python | Lightweight encrypted messaging platform built for privacy in distributed systems. |
+### `whoami`
 
-## 💼 Experience
+```text
+cybersecurity engineer in progress
+
+I build security tooling around systems, networks and cryptography.
+
+→ offensive security
+→ Linux / systems
+→ network security
+→ authentication
+→ sandboxing
+→ security automation
+
+I like understanding how something breaks
+almost as much as I like making it difficult to break.
+````
+
+---
+
+## `// things I've built`
+
+### 🛡️ WRU
+
+**Kernel-level USB security framework**
+
+Zero-trust USB security for Linux.
+
+Device access is controlled before the device gets trusted, combining
+`udev` · `iptables` · `YARA` · device assessment · host enforcement.
+
+> hardware enters → gets assessed → policy decides → access follows
+
+---
+
+### 🔐 TORUS
+
+**Cyclic Projection Authentication**
+
+A passwordless authentication protocol built around a
+rotation-invariant secret.
+
+`ECC / secp256r1` · challenge-response · encrypted WebSockets
+
+The interesting part isn't storing another password.
+
+It's designing authentication where the secret itself
+doesn't need to cross the wire.
+
+`75+ crypto-parity tests`
+
+---
+
+### 🪞 Mirage
+
+**Linux identity-isolation sandbox**
+
+A sandbox that attempts to make applications see a different machine.
+
+`Rust` · `Bubblewrap` · `D-Bus` · `Tauri`
+
+Hardware identity · locale · timezone · network identity
+
+Built around the question:
+
+> **what if sandboxing also meant controlling what the application thinks the machine is?**
+
+---
+
+### 🧾 Prüfen
+
+**Prove facts. Not data.**
+
+Minimal-knowledge attribute verification across devices.
+
+```text
+"I am over 18"
+      ↓
+    proof
+      ↓
+ verification
+      ↓
+no unnecessary personal data
+```
+
+`RS256` · JWT · HTTPS · Cloudflare Tunnel
+
+---
+
+### 📡 DiffiLAN
+
+**LAN analysis + peer authentication**
+
+A small network-security experiment that discovers live hosts
+and establishes a real Diffie-Hellman exchange between peers.
+
+`Python` · `Sockets` · `Scapy`
+
+---
+
+## `// other experiments`
+
+| Project              | What it is                                                                                        |
+| -------------------- | ------------------------------------------------------------------------------------------------- |
+| **CTF Platform**     | Competition infrastructure designed for hundreds of concurrent users with GCP + Vercel deployment |
+| **Password Auditor** | Security research tool demonstrating Windows DPAPI and AES-GCM credential recovery                |
+| **Metaplaig**        | Metadata-based plagiarism detection rather than conventional text matching                        |
+| **Cloud Messaging**  | Lightweight encrypted messaging experiment for distributed systems                                |
+
+---
+
+## `// currently interested in`
+
+```text
+┌─────────────────────────────────────────────────────┐
+│                                                     │
+│  OFFENSIVE SECURITY                                 │
+│  VAPT · network attacks · security tooling          │
+│                                                     │
+│  SYSTEMS                                            │
+│  Linux · Rust · sandboxing · low-level security     │
+│                                                     │
+│  CLOUD                                               │
+│  AWS · GCP · Kubernetes · cloud security             │
+│                                                     │
+│  CRYPTOGRAPHY                                       │
+│  ECC · authentication · zero-knowledge systems      │
+│                                                     │
+└─────────────────────────────────────────────────────┘
+```
+
+---
+
+## `// stack`
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=linux,rust,python,c,cpp,java,bash,powershell" />
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=fastapi,flask,mongodb,mysql,postgres,gcp,docker,git" />
+
+<br/><br/>
+
+`Burp Suite` · `Nmap` · `Wireshark` · `Scapy` · `iptables` · `YARA`
+
+<br/>
+
+`AES-256` · `RSA` · `ECC / secp256r1`
+
+</div>
+
+---
+
+## `// shipped`
 
 <details>
-<summary><b>Software Development & Security Intern</b> — TITUS Solutions <i>(Jun–Jul 2026)</i></summary>
+<summary><b>Software Development & Security — TITUS Solutions</b></summary>
+
 <br/>
-VAPT across internal web apps & infrastructure with remediation documentation · built a production CRM/billing system with RBAC · migrated a legacy PHP codebase to Laravel MVC with minimal downtime.
+
+VAPT across internal applications and infrastructure, security remediation,
+RBAC-based CRM development, and migration of legacy PHP systems toward
+structured MVC architecture.
+
 </details>
+
 <details>
-<summary><b>Infrastructure & Network Intern</b> — Tapnex <i>(Jul–Nov 2025)</i></summary>
+<summary><b>Infrastructure & Network — Tapnex</b></summary>
+
 <br/>
-Built network control software for firewall rule management and device/user administration · designed an SMTP-based load balancer distributing mail traffic across multiple accounts.
+
+Network control software for firewall rules and device/user administration,
+alongside SMTP infrastructure for distributed mail traffic.
+
 </details>
+
 <details>
-<summary><b>Software Development Intern</b> — Scholastic <i>(Dec 2023–Jan 2024)</i></summary>
+<summary><b>Software Development — Scholastic</b></summary>
+
 <br/>
-Built a Python/MySQL backend automating order processing (−85% manual entry time) and a real-time dashboard supporting 107% revenue growth.
+
+Python/MySQL backend automation and a real-time operational dashboard
+for order processing and business reporting.
+
 </details>
 
-## 🏆 Achievements
+---
+
+## `// github`
 
 <div align="center">
 
-![1st](https://img.shields.io/badge/🥇_1st_Place-MATRIX_2025_Treasure_Hunt-CAA14B?style=for-the-badge&labelColor=161e26)
-![2nd](https://img.shields.io/badge/🥈_2nd_Place-Triwizard_Hunt_CTF-CAA14B?style=for-the-badge&labelColor=161e26)
+<img height="170"
+src="https://github-readme-stats.vercel.app/api?username=pb2106&show_icons=true&hide_border=true&bg_color=0d1117&title_color=CAA14B&icon_color=CAA14B&text_color=c9d1d9&hide=issues" />
+
+<img height="170"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=pb2106&layout=compact&hide_border=true&bg_color=0d1117&title_color=CAA14B&text_color=c9d1d9&langs_count=8" />
+
+</div>
+
 <br/>
-![3rd](https://img.shields.io/badge/🥉_3rd_Place-Cloud_Club_CTF,_Jain_University-CAA14B?style=for-the-badge&labelColor=161e26)
-![NASA](https://img.shields.io/badge/🏅_Most_Inspirational-NASA_Space_Apps_2024-CAA14B?style=for-the-badge&labelColor=161e26)
-<br/>
-![SF](https://img.shields.io/badge/🏁_Finalist-Salesforce_Hackathon-CAA14B?style=for-the-badge&labelColor=161e26)
-
-</div>
-
-**Certifications:** Google IT Support Professional Certificate — Networking Fundamentals (2024) · NVIDIA DLI — Networking Fundamentals (2024)
-**Education:** B.Tech Cybersecurity — 8.4 CGPA, Expected 2028
-
-## 📊 GitHub
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=pb2106&theme=onedark&no-frame=true&column=4&margin-w=8&margin-h=8" />
-</div>
 
-<div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=pb2106&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=CAA14B&icon_color=CAA14B&text_color=c9d1d9" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pb2106&layout=compact&hide_border=true&bg_color=0d1117&title_color=CAA14B&text_color=c9d1d9&langs_count=8" />
-</div>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=pb2106&bg_color=0d1117&color=CAA14B&line=CAA14B&point=ffffff&area=true&hide_border=true" width="95%" />
 
-<div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=pb2106&hide_border=true&background=0D1117&ring=CAA14B&fire=CAA14B&currStreakLabel=CAA14B" />
 </div>
 
 ---
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-pb2106-181717?style=for-the-badge&logo=github)](https://github.com/pb2106)
+<a href="https://github.com/pb2106">
+<img src="https://img.shields.io/badge/GitHub-pb2106-161e26?style=for-the-badge&logo=github&logoColor=CAA14B" />
+</a>
+
+ 
+
+<a href="https://github.com/pb2106?tab=repositories">
+<img src="https://img.shields.io/badge/Repositories-explore-161e26?style=for-the-badge&logo=github&logoColor=CAA14B" />
+</a>
+
+<br/><br/>
+
+<sub>build → break → understand → rebuild</sub>
 
 </div>
+```
