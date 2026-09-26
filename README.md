@@ -10,7 +10,7 @@
 
 ## 🚨 **I know you like someone check it out`**
 
-[![Flames](https://img.shields.io/badge/REPO-troll-FF69B4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pb2106/flames)
+[![Flames](https://img.shields.io/badge/REPO-flames-FF69B4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pb2106/flames)
 
 Flames❤️‍🔥❤️‍🔥
 
