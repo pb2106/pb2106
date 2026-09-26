@@ -14,11 +14,6 @@ This is not a drill. This is not a test.
 
 [![troll](https://img.shields.io/badge/REPO-troll-FF69B4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pb2106/troll)
 
-A repository named `troll`. A single `index.html`. A commit message that reads:
-
-> `zooming exists now`
-
-That's it. That's the repo.
 
 If you're expecting an explanation, you're missing the point.
 
