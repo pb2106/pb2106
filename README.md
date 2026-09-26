@@ -1,11 +1,10 @@
-
 <div align="center">
 
 <img src="./banner.svg" width="100%" alt="pb2106" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=14&pause=1400&color=CAA14B&background=00000000&center=true&width=620&lines=breaking+systems+before+someone+else+does;security+%C2%B7+systems+%C2%B7+cryptography;building+things+that+should+probably+not+exist" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=14&pause=1400&color=CAA14B&background=00000000&center=true&width=620&lines=I+break+things+professionally;sometimes+they+break+back;welcome+to+the+lab" />
 
 <br/><br/>
 
@@ -14,6 +13,8 @@
 </a>
 &nbsp;
 <img src="https://komarev.com/ghpvc/?username=pb2106&style=flat-square&color=CAA14B&label=visitors" />
+&nbsp;
+<img src="https://octocat.yups.me/badge/pb2106" height="20" alt="octo-juggler" />
 
 </div>
 
@@ -21,134 +22,55 @@
 
 ### `whoami`
 
+I don't have a portfolio. I have a **crime scene**.
 
-cybersecurity engineer in progress
+Some repos are tools. Some are experiments.  
+One is literally named `troll` and it does exactly what it says.
 
-I build security tooling around systems, networks and cryptography.
-
-→ offensive security
-→ Linux / systems
-→ network security
-→ authentication
-→ sandboxing
-→ security automation
-
-I like understanding how something breaks
-almost as much as I like making it difficult to break.
-
+I care about understanding how systems fail —  
+then making sure they fail **on my terms**.
 
 ---
 
-## `// things I've built`
+## `// the good stuff`
 
-### 🛡️ WRU
+### 🃏 [troll](https://github.com/pb2106/troll)
 
-**Kernel-level USB security framework**
+**A repository named `troll`. A single `index.html`. A commit message that reads:**
+> `zooming exists now`
 
-Zero-trust USB security for Linux.
+That's it. That's the repo.
 
-Device access is controlled before the device gets trusted, combining
-`udev` · `iptables` · `YARA` · device assessment · host enforcement.
-
-> hardware enters → gets assessed → policy decides → access follows
+If you're expecting an explanation, you're missing the point.
 
 ---
 
-### 🔐 TORUS
+### 🔧 [Tools](https://github.com/pb2106/Tools)
 
-**Cyclic Projection Authentication**
+**A curated collection of things that probably shouldn't exist — but do.**
 
-A passwordless authentication protocol built around a
-rotation-invariant secret.
+| Tool | What it does | Why it exists |
+|---|---|---|
+| 👻 **Ghost Profile** | Full anonymity stack for Kali Linux: MAC randomization, DNS encryption, TLS fingerprint spoofing, traffic padding, behavioral OPSEC audit | Because "just use Tor" is for people who don't understand attack surfaces |
+| 💓 **Heartbeat Daemon** | Your laptop's battery level controls an audio heartbeat. 6% battery = panic rhythm | Biofeedback via hardware anxiety |
+| 🎮 **Minecraft Optimizer** | Kills background services, sets CPU to performance, overrides Mesa | Prioritizes block game over postgresql |
+| ⚡ **Boot Optimizer** | Disables services nobody needs | Faster boot = faster `sudo bash ghost.sh` |
+| 🛠 **Essential Tools Installer** | Installs the entire Kali arsenal in one command | 20-40 minutes of your life you'll never get back |
+| 🎓 **LinkedIn Learning Solver** | Auto-completes courses at 16x speed, muted, invisible | For when you need the certificate but not the content |
 
-`ECC / secp256r1` · challenge-response · encrypted WebSockets
-
-The interesting part isn't storing another password.
-
-It's designing authentication where the secret itself
-doesn't need to cross the wire.
-
-`75+ crypto-parity tests`
-
----
-
-### 🪞 Mirage
-
-**Linux identity-isolation sandbox**
-
-A sandbox that attempts to make applications see a different machine.
-
-`Rust` · `Bubblewrap` · `D-Bus` · `Tauri`
-
-Hardware identity · locale · timezone · network identity
-
-Built around the question:
-
-> **what if sandboxing also meant controlling what the application thinks the machine is?**
+**Ghost Profile alone includes:** obfs4, Shadowsocks, REALITY, JA3 spoofing, DNS padding, honeypot detection, and a behavioral fingerprint audit that tells you how predictable you are [citation:2].
 
 ---
 
-### 🧾 Prüfen
+## `// things I'm actually supposed to be building`
 
-**Prove facts. Not data.**
-
-Minimal-knowledge attribute verification across devices.
-
-```text
-"I am over 18"
-      ↓
-    proof
-      ↓
- verification
-      ↓
-no unnecessary personal data
-```
-
-`RS256` · JWT · HTTPS · Cloudflare Tunnel
-
----
-
-### 📡 DiffiLAN
-
-**LAN analysis + peer authentication**
-
-A small network-security experiment that discovers live hosts
-and establishes a real Diffie-Hellman exchange between peers.
-
-`Python` · `Sockets` · `Scapy`
-
----
-
-## `// other experiments`
-
-| Project              | What it is                                                                                        |
-| -------------------- | ------------------------------------------------------------------------------------------------- |
-| **CTF Platform**     | Competition infrastructure designed for hundreds of concurrent users with GCP + Vercel deployment |
-| **Password Auditor** | Security research tool demonstrating Windows DPAPI and AES-GCM credential recovery                |
-| **Metaplaig**        | Metadata-based plagiarism detection rather than conventional text matching                        |
-| **Cloud Messaging**  | Lightweight encrypted messaging experiment for distributed systems                                |
-
----
-
-## `// currently interested in`
-
-```text
-┌─────────────────────────────────────────────────────┐
-│                                                     │
-│  OFFENSIVE SECURITY                                 │
-│  VAPT · network attacks · security tooling          │
-│                                                     │
-│  SYSTEMS                                            │
-│  Linux · Rust · sandboxing · low-level security     │
-│                                                     │
-│  CLOUD                                               │
-│  AWS · GCP · Kubernetes · cloud security             │
-│                                                     │
-│  CRYPTOGRAPHY                                       │
-│  ECC · authentication · zero-knowledge systems      │
-│                                                     │
-└─────────────────────────────────────────────────────┘
-```
+| Project | What |
+|---|---|
+| **WRU** | Kernel-level zero-trust USB framework |
+| **TORUS** | Passwordless auth where the secret never crosses the wire |
+| **Mirage** | Sandbox that makes apps see a different machine |
+| **Prüfen** | Prove facts, not data. `"I am over 18"` → proof → done |
+| **DiffiLAN** | LAN discovery + real Diffie-Hellman between peers |
 
 ---
 
@@ -158,58 +80,20 @@ and establishes a real Diffie-Hellman exchange between peers.
 
 <img src="https://skillicons.dev/icons?i=linux,rust,python,c,cpp,java,bash,powershell" />
 
-<br/><br/>
+<br/>
 
 <img src="https://skillicons.dev/icons?i=fastapi,flask,mongodb,mysql,postgres,gcp,docker,git" />
 
-<br/><br/>
-
-`Burp Suite` · `Nmap` · `Wireshark` · `Scapy` · `iptables` · `YARA`
-
 <br/>
 
+`Burp Suite` · `Nmap` · `Wireshark` · `Scapy` · `iptables` · `YARA`
 `AES-256` · `RSA` · `ECC / secp256r1`
 
 </div>
 
 ---
 
-## `// shipped`
-
-<details>
-<summary><b>Software Development & Security — TITUS Solutions</b></summary>
-
-<br/>
-
-VAPT across internal applications and infrastructure, security remediation,
-RBAC-based CRM development, and migration of legacy PHP systems toward
-structured MVC architecture.
-
-</details>
-
-<details>
-<summary><b>Infrastructure & Network — Tapnex</b></summary>
-
-<br/>
-
-Network control software for firewall rules and device/user administration,
-alongside SMTP infrastructure for distributed mail traffic.
-
-</details>
-
-<details>
-<summary><b>Software Development — Scholastic</b></summary>
-
-<br/>
-
-Python/MySQL backend automation and a real-time operational dashboard
-for order processing and business reporting.
-
-</details>
-
----
-
-## `// github`
+## `// stats` (because everyone has them, but mine is honest)
 
 <div align="center">
 
@@ -233,18 +117,16 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=pb2106&layou
 
 <div align="center">
 
-<a href="https://github.com/pb2106">
-<img src="https://img.shields.io/badge/GitHub-pb2106-161e26?style=for-the-badge&logo=github&logoColor=CAA14B" />
+<a href="https://github.com/pb2106/troll">
+<img src="https://img.shields.io/badge/troll-161e26?style=for-the-badge&logo=github&logoColor=CAA14B" />
 </a>
-
- 
-
-<a href="https://github.com/pb2106?tab=repositories">
-<img src="https://img.shields.io/badge/Repositories-explore-161e26?style=for-the-badge&logo=github&logoColor=CAA14B" />
+&nbsp;
+<a href="https://github.com/pb2106/Tools">
+<img src="https://img.shields.io/badge/Tools-161e26?style=for-the-badge&logo=github&logoColor=CAA14B" />
 </a>
 
 <br/><br/>
 
-<sub>build → break → understand → rebuild</sub>
+<sub>build → break → understand → rebuild → break again, this time on purpose</sub>
 
 </div>
