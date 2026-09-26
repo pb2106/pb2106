@@ -3,8 +3,6 @@
 > "I don't have a portfolio. I have a crime scene."
 >
 > *Some repos are tools. Some are experiments. One is literally named `troll`, and it does exactly what it says.*
->
-> *I care about understanding how systems fail — then making sure they fail on my terms.*
 
 ---
 
