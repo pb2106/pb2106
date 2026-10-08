@@ -40,8 +40,6 @@ This is a curated collection of things that probably shouldn't exist—but do. U
 | **🛠 Essential Tools Installer** | Installs the entire Kali arsenal in one command. | 20-40 minutes of your life you'll never get back. |
 | **🎓 LinkedIn Learning Solver** | Auto-completes courses at 16x speed, muted, invisible. | For when you need the certificate but not the content. |
 
-> *Ghost Profile alone includes: obfs4, Shadowsocks, REALITY, JA3 spoofing, DNS padding, honeypot detection, and a behavioral fingerprint audit that tells you how predictable you are.*
-
 ---
 
 ##  **Things I'm Actually Supposed to Be Building**
