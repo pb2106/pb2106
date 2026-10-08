@@ -1,4 +1,4 @@
-# 🕵️‍♂️ pb2106 // whoami
+#  pb2106 // whoami
 
 > "I don't have a portfolio. I have a crime scene."
 >
@@ -6,7 +6,7 @@
 
 ---
 
-## 🚨 **I know you like someone check it out`**
+##  **I know you like someone check it out`**
 
 [![Flames](https://img.shields.io/badge/REPO-flames-FF69B4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pb2106/flames)
 
@@ -14,7 +14,7 @@ Flames❤️‍🔥❤️‍🔥
 
 ---
 
-## 🚨 **Beware of the `troll`**
+##  **Beware of the `troll`**
 
 This is not a drill. This is not a test.
 
@@ -25,7 +25,7 @@ If you're expecting an explanation, you're missing the point.
 
 ---
 
-## 🛠️ **The Good Stuff (aka `/Tools`)**
+##  **The Good Stuff (aka `/Tools`)**
 
 This is a curated collection of things that probably shouldn't exist—but do. Use at your own risk, or for authorized security research only.
 
@@ -44,7 +44,7 @@ This is a curated collection of things that probably shouldn't exist—but do. U
 
 ---
 
-## 🏗️ **Things I'm Actually Supposed to Be Building**
+##  **Things I'm Actually Supposed to Be Building**
 
 The serious stuff. The stuff that might actually save the world (or at least a LAN).
 
@@ -55,10 +55,10 @@ The serious stuff. The stuff that might actually save the world (or at least a L
 | **Mirage** | Sandbox that makes apps see a different machine. |
 | **Prüfen** | Prove facts, not data. "I am over 18" → proof → done. |
 | **DiffiLAN** | LAN discovery + real Diffie-Hellman between peers. |
-
+| **Selective** | Demand-Driven Package Loading & Supply-Chain Analyzer. |
 ---
 
-## 📊 **Stats (Because Everyone Has Them, But Mine Is Honest)**
+## 📊 **Stats (Because Everyone Has Them)**
 
 This is a 3D isometric graph of my contributions. It looks like a city skyline. It's probably the coolest thing on this page.
 
@@ -66,7 +66,7 @@ This is a 3D isometric graph of my contributions. It looks like a city skyline. 
 
 ---
 
-## 🕵️ **Witness the Visitors**
+##  **Witness the Visitors**
 
 Someone is watching. Or, at least, counting.
 
@@ -74,11 +74,3 @@ Someone is watching. Or, at least, counting.
 
 ---
 
-## ⚡ **The Stack (What I Actually Use to Break/Fix Things)**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
