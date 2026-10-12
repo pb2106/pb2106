@@ -62,13 +62,6 @@ This is a 3D isometric graph of my contributions. It looks like a city skyline. 
 
 ![My 3D Contributions](https://isometric-contributions-spectrewolf8.onrender.com/api/graph?username=pb2106&theme=neon&stats=true&credit=true&width=1000&height=600)
 
----
-
-##  **Witness the Visitors**
-
-Someone is watching. Or, at least, counting.
-
-![Visitor Count](https://komarev.com/ghpvc/?username=pb2106&label=CRIME%20SCENE%20VISITORS&color=blueviolet&style=for-the-badge)
 
 ---
 
